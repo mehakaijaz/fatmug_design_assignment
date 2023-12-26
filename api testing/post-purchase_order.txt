@@ -1,0 +1,27 @@
+json input of required fields for post request for http://127.0.0.1:8000/api/purchase_order/
+
+{
+  "po_number": "This field is required."
+  "order_date":"This field is required.",
+  "delivery_date":"This field is required.",
+  "items":"This field is required.",
+  "quantity":"This field is required.",
+  "status": "This field is required.",
+  "vendor":"This field is required.",
+}
+
+json output consisting all the fields.
+
+{
+  "id": 4,
+  "po_number": "1",
+  "order_date": "2012-12-12T00:00:00Z",
+  "delivery_date": "2023-12-12T00:00:00Z",
+  "items": {"pen":"1"},
+  "quantity": 45,
+  "status": "completed",
+  "quality_rating": null,
+  "issue_date": "2023-12-24T14:24:20.773650Z",
+  "acknowledgment_date": null,
+  "vendor": 2
+}

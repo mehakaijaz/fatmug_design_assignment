@@ -1,0 +1,23 @@
+json input of required fields for post request for http://127.0.0.1:8000/api/vendors/
+
+
+{
+  "name": "This field is required.",
+  "contact_details":"This field is required.",
+  "address":"This field is required.",
+  "vendor_code":"This field is required."
+}
+
+json output consisting all the fields.
+
+{
+  "id": 4,
+  "name": "vendor3",
+  "contact_details": "1234",
+  "address": "new york",
+  "vendor_code": "5",
+  "on_time_delivery_rate": 0.0,
+  "quality_rating_avg": 0.0,
+  "average_response_time": 0.0,
+  "fulfillment_rate": 0.0
+}

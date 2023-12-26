@@ -1,0 +1,35 @@
+[
+  {
+    "id": 2,
+    "name": "New Vendor1",
+    "contact_details": "09876543",
+    "address": "naintal",
+    "vendor_code": "NEW1234",
+    "on_time_delivery_rate": 100.0,
+    "quality_rating_avg": 0.0,
+    "average_response_time": 0.0,
+    "fulfillment_rate": 0.0
+  },
+  {
+    "id": 3,
+    "name": "New Vendor12",
+    "contact_details": "09876543",
+    "address": "naintal",
+    "vendor_code": "1234",
+    "on_time_delivery_rate": 0.0,
+    "quality_rating_avg": 0.0,
+    "average_response_time": 0.0,
+    "fulfillment_rate": 0.0
+  },
+  {
+    "id": 1,
+    "name": "New Vendor",
+    "contact_details": "765432",
+    "address": "Address of the new vendor",
+    "vendor_code": "NEW123",
+    "on_time_delivery_rate": 0.0,
+    "quality_rating_avg": 0.0,
+    "average_response_time": 19701.0,
+    "fulfillment_rate": 0.0
+  }
+]
